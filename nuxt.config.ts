@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@vueuse/nuxt',
     '@nuxt/content',
-    '@nuxtjs/stylelint-module',
   ],
   app: {
     rootId: 'nuxt-root',
@@ -55,9 +54,5 @@ export default defineNuxtConfig({
     '@/assets/styles/theme.css',
     '@/assets/styles/transition.css',
     '@/assets/styles/markdown.scss',
-  ],
-  stylelint: {
-    /* module options */
-    lintOnStart: false,
-  },
+  ]
 })

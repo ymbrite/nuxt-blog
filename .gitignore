@@ -10,7 +10,6 @@ pnpm-lock.yaml
 
 .nitro
 .cache
-.stylelintcache
 dist
 .DS_Store
 .vercel
